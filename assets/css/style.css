@@ -25,6 +25,7 @@ h1, h2, h3 {
 #logo{
     float: left;
     font-size: 50px;
+    margin-left: 50px;
 }
 
 /* navigation links*/
@@ -106,8 +107,32 @@ transform: scale(1.1);
 
     background-color: rgba( 241 109, 107, .7);
 
-    bottom: 50px;
-    right: 150px;
+    bottom: 100px;
+    right: 100px;
 
     position: absolute;
+}
+
+/* descritption text*/
+
+#description-text {
+    height: 600px; 
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 30%;
+    float: left;
+}
+
+#right-about {
+    padding-top:30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width:33%;
+    margin: 0 auto;
+    
 }
