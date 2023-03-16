@@ -166,3 +166,26 @@ hr {
 .right-about-heading p {
     text-align: right;
 }
+
+#welcome {
+
+    text-align: center;
+    margin: 10px 0;
+}
+
+#circle-container {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    border: solid;
+    border-color:#4523a1;
+    border-width: 1px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+#circle-cover-bg {
+    background: url('../images/horus-2533139__340.png') no-repeat center center;
+    height: 100%;
+    border-radius: 50%;
+}
